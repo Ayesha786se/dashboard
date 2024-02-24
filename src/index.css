@@ -1,0 +1,220 @@
+.mask {
+    flex-direction: row-reverse;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#root>div{
+    padding: 0;
+}
+.ant-layout .content_layout{
+    padding: 0;
+}
+
+/* Logo CSS */
+.logo-bar {
+    width: 6px;
+    display: inline-flex;
+    margin-right: 4px;
+    height: 10px;
+    background-color: blue;
+}
+.skyblue {
+    background-color: #95D0D4;
+}
+.orange {
+    height: 15px;
+    background-color: orange;
+}
+.purple {
+    height: 20px;
+    background-color: purple;
+}
+.siteLogo .ant-typography {
+    color: purple;
+    
+
+}
+.siteLogo{
+   margin-left:32px;
+   margin-top: 45px;
+}
+
+.sideBar_Avatar{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 27px;
+    position: relative;
+}
+.profile_time{
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 15px;
+    border-radius: 10px;
+   background-color: #fff;
+    font-size: 9px;
+    position: absolute;
+    left: 14px;
+    bottom: 60px;
+}
+.profile_time .anticon{
+    margin-left: 8px;
+    margin-right:3px;
+    background-color: rgb(236, 221, 23);
+   
+}
+.bar{
+    margin-top: -33px;
+}
+.bar .ant-typography{
+    color: gainsboro;
+}
+.bar .ant-progress-text{
+    color: white;
+}
+
+/* task and statistics section cs */
+.TaskStatistics_main_container{
+    /* width: 100%; */
+    /* height: 400px; */
+    display: flex;
+    width: 700px;
+    margin: auto;
+    height: 469px;
+  
+    
+}
+.ant-layout-content{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.ant-layout-sider{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.task_section{
+    /* width: 50%; */
+    /* padding: 10px; */
+    flex:1;
+}
+
+/* task card */
+.task_card{
+    width: 79%;
+    /* height: 100px; */
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 1px 2px 3px 1px rgba(187, 184, 184, 0.7);
+    margin-bottom:20px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+/* stat_card */
+.stat_card{
+   
+    /* background-color: white; */
+    background: rgb(250, 248, 248);
+    border-radius: 10px;
+    margin-left: 13px;
+    padding: 15px 0px;
+
+}
+.TaskStatistics_main_container h2{
+    color:#71357C;
+    font-weight: 700;
+}
+
+/* .top_stat{
+    width: 100%;
+ 
+} */
+.bottom_stat{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 2px 3px 1px rgba(231,223,223, .7);
+     margin-top: 10px;
+    border-radius: 20px;
+}
+.bottom_stat::after {
+    content: '';
+    background: url('https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg?w=740&t=st=1708322703~exp=1708323303~hmac=68cf06f830a6a443408af45e08450bad32a22d932567a4b4340300dcd364bd68');
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+.sideBar.ant-menu{
+    border-inline-end: none !important;
+}
+.content_layout{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.calender_top{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 32px;
+}
+.bell_icon .anticon svg{
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+
+}
+   .calender_time_pipe{
+    width: 3px;
+    display: inline-flex;
+    margin-right: 4px;
+    height: 25px;
+   
+
+   }
+   .date_dropdown{
+    margin-top: 20px;
+   }
+
+   .date_dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+.btn{
+    background:    #674ea7;
+border-radius: 11px;
+
+color:         #ffffff;
+display:       inline-block;
+
+text-align:    center;
+}
+.Ad_icon{
+    font-size: 27px;
+    margin-top: 15px;
+ 
+}
+.Ad_icon.anticon{
+    border-radius: 50%;
+}
+.ad_card_cover_img{
+    height: 150px;
+   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b103e875-5453-43cc-ba6f-6b65268034cc/dfduqrb-f9d4f3e8-898c-4b99-a79d-ca8268e23a2f.png/v1/fill/w_1280,h_1871,q_80,strp/woman_in_neon_acrylic_paint_by_bkkillustrator_dfduqrb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IxMDNlODc1LTU0NTMtNDNjYy1iYTZmLTZiNjUyNjgwMzRjY1wvZGZkdXFyYi1mOWQ0ZjNlOC04OThjLTRiOTktYTc5ZC1jYTgyNjhlMjNhMmYucG5nIiwiaGVpZ2h0IjoiPD0xODcxIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvYjEwM2U4NzUtNTQ1My00M2NjLWJhNmYtNmI2NTI2ODAzNGNjXC9ia2tpbGx1c3RyYXRvci00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.XgGva4iBw07sLmATxHjkBAqyNXMLp2dj4NItZlNmpmQ');
+   background-size: cover;
+}
+    
+
+
